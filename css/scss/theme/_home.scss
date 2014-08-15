@@ -1,0 +1,58 @@
+//================
+//Home
+
+.template-home {
+	width:100%;
+	padding: 0 16% 4em;
+	@include mq(tablet) { padding: 0 10% 4em; }
+	@include mq(phone) { padding:0  2.5% 4em; }
+}
+
+.item-home-left {
+	display: inline-block;
+	width: 38%;
+	vertical-align:top;
+	text-align:right;
+
+	a {
+		margin-top: 2em;
+		display: block;
+	}
+
+	.item-home-bottom-left {
+		margin-top: 6em;
+		width: 85%;
+		@include mq(phone) { margin-top: 3em; }
+	}
+}
+.item-home-central {
+	display: inline-block;
+	width: 24%;
+	vertical-align:top;
+	margin-top: 5em;
+	@include mq(tablet) { margin-top: 4em; }
+	@include mq(phone) { margin-top: 3em; }
+}
+
+.item-home-right {
+	display: inline-block;
+	width: 38%;
+	vertical-align:top;
+	text-align:left;
+
+	a {
+		margin-top: 0;
+		display: block;
+	}
+
+	.item-home-top-right {
+		width: 90%;
+	}
+
+	.item-home-bottom-right {
+		margin-top: 3em;
+		@include mq(lap) { margin-top: 4.5em; }
+		@include mq(tablet) { margin-top: 3.5em; }
+		@include mq(phone) { margin-top: 3em; }
+	}
+}

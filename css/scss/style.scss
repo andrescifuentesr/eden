@@ -1,0 +1,140 @@
+//structure
+@import 'structure/variables';
+@import 'structure/mixins';
+@import 'inc/template';
+@import 'structure/grid';
+@import 'structure/typography';
+
+// inc
+@import 'inc/fancybox';
+@import 'inc/flexslider';
+@import 'inc/slick';
+
+//theme
+@import 'theme/header';
+@import 'theme/menu_social';
+@import 'theme/page';
+@import 'theme/home';
+@import 'theme/loader';
+@import 'theme/photos';
+@import 'theme/contact';
+@import 'theme/menu_api';
+@import 'theme/privatisation';
+@import 'theme/newsletter';
+@import 'theme/soir';
+@import 'theme/sport';
+
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+html {
+	@if $custom-font-family {
+		font: $font-weight #{$font-size}%/#{$line-height} $custom-font-family, $font-family;
+	} @else {
+		font: $font-weight #{$font-size}%/#{$line-height} $font-family;
+	}
+}
+
+body {
+	// Ala Trent Walton
+//	@include css-hyphens(auto);
+//	@extend %breakword;
+	color: $blue-principal;
+	background: url('../../../img/background-page-home.jpg') repeat center 170px #F5EAD4;
+}
+
+a {
+	color: #fff;
+	text-decoration:none;
+}
+
+h1 {
+	font-style: italic;
+	font-weight:bold;
+	@include font-size(30px);
+}
+
+h2 {
+	font-style: italic;
+	margin-bottom: 0.2em;
+}
+
+h4 {
+	border-bottom: 2px solid #6998a8;
+	padding-bottom: 0.3em;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+.border-green-top {
+	border-top:5px solid #6998a8;
+}
+
+.border-green-bottom {
+	border-bottom:5px solid #6998a8;
+}
+
+
+/* ========= Template =========== */	
+
+.page-template-template-fond-carre-php,
+.page-template-template-menu-php,
+.page-template-template-soire-php
+
+{
+	background: url('../../../img/background-tartan_2.jpg') center 171px #F5EAD4;
+
+	.site-main {
+		background: url('../../../img/background-page.jpg') top center #F1EDE3;
+		padding: 2em 2em 1em;
+		box-shadow: 0 0 10px #999999;
+		@include mq(tablet) {padding: 2em 2em 1em;}
+		@include mq(phone) {padding: 1em;}
+	}
+}
+
+/* ========= Helperclass =========== */	
+
+
+%center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+%vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+%horizontal-center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
