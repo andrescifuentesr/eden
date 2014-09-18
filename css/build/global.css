@@ -1992,7 +1992,7 @@ html[xmlns] .slides {
 @media (max-width: 40em) {
   .nav-social {
     margin: 0.5em auto 0.2em;
-    width: 180px;
+    width: 150px;
     display: block;
   }
 }
@@ -2066,7 +2066,7 @@ html[xmlns] .slides {
 }
 @media (max-width: 40em) {
   .menu-social li {
-    width: 25%;
+    width: 33.33333%;
     margin-bottom: 0;
   }
 }
@@ -2370,7 +2370,8 @@ html[xmlns] .slides {
   margin: 2em 0;
 }
 .post-25 a {
-  color: #dd0b14;
+  color: #001f47;
+  text-decoration: underline;
 }
 
 .template-api .entry-header {
@@ -2449,7 +2450,7 @@ html[xmlns] .slides {
   height: 20em;
 }
 .api-menu #dish550561 {
-  background: url("../../../img/menu-api/boisson-jager.png") bottom center no-repeat;
+  background: url("../../../img/menu-api/image-menu-jager.png") bottom center no-repeat;
   height: 22em;
 }
 .api-menu #dish550535 {
@@ -2537,60 +2538,9 @@ html[xmlns] .slides {
   }
 }
 
-.post-14 {
-  position: relative;
-  margin-top: 2em;
-  width: 315px;
-  padding: 2em 3em 0;
-  color: #fff;
-  font-size: 0.7em;
-  background: url("../../../img/background-jays.png") no-repeat;
-  transition: 0.3s all ease-out;
-}
-@media (max-width: 40em) {
-  .post-14 {
-    width: 290px;
-    padding: 2em 2em 0;
-  }
-}
-.post-14 h5 {
-  padding-bottom: 0.5em;
-  text-transform: uppercase;
-  border-bottom: 1px solid #dd0b14;
-}
-.post-14 a {
+.post-23 a {
+  color: #001f47;
   text-decoration: underline;
-}
-.post-14 .button-jays {
-  position: absolute;
-  display: block;
-  background: url("../../../img/green-arrow-jays.svg") no-repeat;
-  height: 65px;
-  width: 65px;
-  top: 35%;
-  right: -52px;
-  cursor: pointer;
-  transition: 0.3s all ease-out;
-}
-.post-14 .wpcf7 input[type="submit"] {
-  top: 0;
-}
-.post-14 .wpcf7 textarea {
-  height: 100px;
-}
-
-.mobile-image {
-  display: block;
-  background: url("http://www.cuyabroweb.com/loulou/wp-content/uploads/2014/05/31.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-.hide {
-  transform: translate(-95%, 0%);
-}
-
-.rotate {
-  transform: rotate(180deg);
 }
 
 .module-newsletter {
@@ -2708,11 +2658,9 @@ p {
 }
 
 .feed-eden {
-  max-width: 600px;
   margin: 3em auto;
   padding: 2em 4em 1em;
   text-align: center;
-  background: rgba(0, 0, 0, 0.3);
 }
 @media only screen and (min-width: 40em) and (max-width: 63em) {
   .feed-eden {
@@ -2766,6 +2714,7 @@ h1 {
 
 h2 {
   font-style: italic;
+  font-weight: bold;
   margin-bottom: 0.2em;
 }
 

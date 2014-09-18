@@ -6,7 +6,7 @@
 	width: 25%;
 	display: inline-block;
 	@include mq(lap) { width: 20%;}
-	@include mq(phone) {margin: 0.5em auto 0.2em; width:180px; display:block;}
+	@include mq(phone) {margin: 0.5em auto 0.2em; width:150px; display:block;}
 }
 
 
@@ -74,7 +74,7 @@
 		float: left;
 		width: 50%;
 		margin-bottom: 0.2em;
-		@include mq(phone) {width:25%; margin-bottom: 0;}
+		@include mq(phone) {width: (1/3)*100%; margin-bottom: 0;}
 	}
 
 	a {

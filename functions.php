@@ -99,9 +99,7 @@ function eden_scripts() {
 	wp_enqueue_script( 'eden-modernizr', get_template_directory_uri() . '/js/libs/modernizr.custom.63353.js', array(), '20140624', false );
 
 	// Enqueue Google maps
-	if ( is_page( 25 ) ) {
-		wp_enqueue_script( 'eden-GoogleMaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyArEmbqneDepMsMr0aZAYE-XAVxRsl2B9E&sensor=false', false );
-	}
+	wp_enqueue_script( 'eden-GoogleMaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyArEmbqneDepMsMr0aZAYE-XAVxRsl2B9E&sensor=false', false );
 	
 	//Production JS
 	wp_enqueue_script( 'eden-main', get_template_directory_uri() . '/js/build/production.min.js', array('jquery'), '20140624', true );

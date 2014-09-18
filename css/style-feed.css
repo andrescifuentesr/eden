@@ -1,0 +1,33 @@
+#container {
+	font-size: 18px;
+	color: #001f47;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+	display: none;
+/*	
+	margin: 0px;
+	padding: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	background-color: #FF69B4;
+	background-image: none;
+*/
+}
+
+#content {
+	padding: 10px 0px;
+}
+
+#content .feed_item {
+	background: rgba(0, 31, 71, 0.6);
+	margin: 5px 0 5px 0;
+	padding: 25px 0 25px 0;
+	color: #fff;
+	line-height: 1.7;
+}
+
+#content .feed_item a {
+	color: #fff;
+}
