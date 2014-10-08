@@ -19,11 +19,11 @@ get_header(); ?>
 					<div><!--
 
 					--><div class="item-home-left">
-							<a href="<?php echo esc_url( get_permalink( 21 ) ); ?>">
+							<a href="<?php echo esc_url( get_permalink( 142 ) ); ?>">
 								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-happy.png"  />
 							</a>
 						
-							<a href="<?php echo esc_url( get_permalink( 142 ) ); ?>" class="item-home-bottom-left">
+							<a href="<?php echo esc_url( get_permalink( 21 ) ); ?>" class="item-home-bottom-left">
 								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-ambiance.png"  />
 							</a>			
 						</div><!--

@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Marcelle Script';
-  src: url("../../fonts/Marcsc___.eot");
-  /* IE9 Compat Modes */
-  src: url("../../fonts/Marcsc___.eot?#iefix") format("embedded-opentype"), url("../../fonts/Marcsc___.woff") format("woff"), url("../../fonts/Marcsc___.ttf") format("truetype"), url("../../fonts/Marcsc___.svg#3add1fd9ddd5577c9bcfab2666d1d80f") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
   font-family: 'Mohave';
   src: url("../../fonts/Mohave Italics.eot");
   /* IE9 Compat Modes */
@@ -2269,7 +2259,7 @@ html[xmlns] .slides {
 @media (max-width: 40em) {
   .nav-social {
     margin: 0.5em auto 0.2em;
-    width: 150px;
+    width: 185px;
     display: block;
   }
 }
@@ -2353,7 +2343,7 @@ html[xmlns] .slides {
 
 @media (max-width: 40em) {
   .menu-social li {
-    width: 33.33333%;
+    width: 25%;
     margin-bottom: 0;
   }
 }
