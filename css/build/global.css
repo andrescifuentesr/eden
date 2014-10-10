@@ -2024,19 +2024,42 @@ html[xmlns] .slides {
   opacity: 0.7;
 }
 
-.menu-social {
+.menu-lang {
+  position: absolute;
+  left: .5em;
+  top: 6em;
+}
+@media only screen and (min-width: 40em) and (max-width: 63em) {
+  .menu-lang {
+    top: 6em;
+  }
+}
+@media (max-width: 40em) {
+  .menu-lang {
+    top: 3em;
+    right: -60%;
+    left: auto;
+  }
+}
+.menu-lang #lang_sel_list a, .menu-lang #lang_sel_list a:visited {
+  background: transparent;
+}
+
+.wrapper-menu-social {
   display: inline-block;
   width: 50%;
   vertical-align: top;
   margin-bottom: 0.5em;
+  position: relative;
 }
 @media (max-width: 40em) {
-  .menu-social {
+  .wrapper-menu-social {
     margin-top: 0;
     text-align: left;
     width: auto;
   }
 }
+
 .menu-social ul {
   margin: 0;
   width: 56px;

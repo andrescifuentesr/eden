@@ -19,7 +19,7 @@ get_header(); ?>
 					<div><!--
 
 					--><div class="item-home-left">
-							<a href="<?php echo esc_url( get_permalink( 142 ) ); ?>">
+							<a href="<?php echo esc_url( get_permalink( 328 ) ); ?>">
 								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-happy.png"  />
 							</a>
 						

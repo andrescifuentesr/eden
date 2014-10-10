@@ -51,8 +51,14 @@
 				<div class="bt-newsletter">
 					<a href="#block-newsletter" class="button-news-fancy">Newsletter</a>
 				</div><!--
-				--><?php get_template_part( 'menu', 'social' ); ?>
-				<!-- #social menu -->
+			--><div class="wrapper-menu-social">
+					<?php get_template_part( 'menu', 'social' ); ?>
+					
+					<!-- #lang nav -->
+					<div class="menu-lang clearfix">
+						<?php //do_action('icl_language_selector'); ?>
+					</div>
+				</div><!-- .social-lang -->
 			</div>
 		</div>
 
