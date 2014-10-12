@@ -16,6 +16,19 @@ switch ($postId) {
 	case '144': //Vins
 		$idCarte = '381884';
 		break;
+//==== menu EN ===========
+	case '345': // Planches
+		$idCarte = '385105';
+		break;
+	case '339': //Boisson
+		$idCarte = '385103';
+		break;
+	case '349': //Vins
+		$idCarte = '385104';
+		break;
+	case '341': //Happy Hours
+		$idCarte = '385102';
+		break;		
 	default:
 		$idCarte = '381883';
 		break;
