@@ -19,12 +19,14 @@ get_header(); ?>
 					<div><!--
 
 					--><div class="item-home-left">
-							<a href="<?php echo esc_url( get_permalink( 328 ) ); ?>">
-								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-happy.png"  />
+							<a href="<?php the_field('eden_home_happy') ?>">
+								<?php $image_home_happy = get_field('eden_home_happy_image'); ?>
+								<img src="<?php echo $image_home_happy['url']; ?>" alt="<?php echo $image_home_happy['alt']; ?>" />
 							</a>
 						
-							<a href="<?php echo esc_url( get_permalink( 21 ) ); ?>" class="item-home-bottom-left">
-								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-ambiance.png"  />
+							<a href="<?php the_field('eden_home_ambiance') ?>" class="item-home-bottom-left">
+								<?php $image_home_ambiance = get_field('eden_home_ambiance_images'); ?>
+								<img src="<?php echo $image_home_ambiance['url']; ?>" alt="<?php echo $image_home_ambiance['alt']; ?>" />
 							</a>			
 						</div><!--
 						
@@ -33,12 +35,14 @@ get_header(); ?>
 						</div><!--
 
 					--><div class="item-home-right">
-							<a href="<?php echo esc_url( get_permalink( 23 ) ); ?>" class="item-home-top-right">
-								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-privatisez.png" />
+							<a href="<?php the_field('eden_home_privatisez') ?>" class="item-home-top-right">
+								<?php $image_home_privatisez = get_field('eden_home_privatisez_image'); ?>
+								<img src="<?php echo $image_home_privatisez['url']; ?>" alt="<?php echo $image_home_privatisez['alt']; ?>" />
 							</a>
 
-							<a href="<?php echo esc_url( get_permalink( 19 ) ); ?>" class="item-home-bottom-right">
-								<img src="<?php bloginfo('template_directory'); ?>/img/home/image-home-sport.png"  />
+							<a href="<?php the_field('eden_home_sport') ?>" class="item-home-bottom-right">
+								<?php $image_home_sport = get_field('eden_home_sport_image'); ?>
+								<img src="<?php echo $image_home_sport['url']; ?>" alt="<?php echo $image_home_sport['alt']; ?>" />
 							</a>
 						</div><!--
 				--></div>

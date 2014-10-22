@@ -36,7 +36,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>  <?php if ( is_page( 25 ) ) { ?> onload="initialize()" <?php } ?>>
+<body <?php body_class(); ?>  <?php if ( is_page( 25 ) OR is_page( 340 ) ) { ?> onload="initialize()" <?php } ?>>
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'eden' ); ?></a>
